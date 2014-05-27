@@ -1,0 +1,46 @@
+{
+  "name": "grunt-phantom-crawler",
+  "description": "Crawl a site and generate urls and sitemap with phantomjs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/UseAllFive/grunt-phantom-crawler",
+  "author": {
+    "name": "Jason Moore",
+    "email": "jmoore@useallfive.com",
+    "url": "http://useallfive.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UseAllFive/grunt-phantom-crawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UseAllFive/grunt-phantom-crawler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/UseAllFive/grunt-phantom-crawler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "node-phantom": "~0.2.5",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
